@@ -1,0 +1,94 @@
+/* General reset */
+* {
+    margin: 0; /* Elimina los márgenes por defecto de todos los elementos */
+    padding: 0; /* Elimina el relleno por defecto de todos los elementos */
+    box-sizing: border-box; /* Hace que el padding y el border se sumen al tamaño total de los elementos */
+    font-family: Arial, sans-serif; /* Establece la fuente de la página a Arial, con una alternativa sans-serif */
+}
+
+/* Estilos generales del body */
+body {
+    background-color: #f4f7f9; /* Establece el color de fondo de la página */
+    display: flex; /* Utiliza el modelo de diseño Flexbox para centrar los elementos */
+    justify-content: center; /* Centra los elementos de manera horizontal */
+    align-items: center; /* Centra los elementos de manera vertical */
+    height: 100vh; /* Hace que el cuerpo ocupe el 100% de la altura de la ventana del navegador */
+    color: #333; /* Define el color del texto como gris oscuro */
+}
+
+/* Estilo para el contenedor principal */
+.container {
+    background-color: #ffffff; /* Establece el color de fondo del contenedor */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Añade una sombra sutil alrededor del contenedor */
+    border-radius: 8px; /* Redondea las esquinas del contenedor */
+    padding: 20px 30px; /* Añade espacio interno (relleno) alrededor del contenido */
+    width: 350px; /* Establece un ancho fijo para el contenedor */
+    text-align: center; /* Centra el texto dentro del contenedor */
+}
+
+/* Estilo para el título */
+h1 {
+    font-size: 24px; /* Establece el tamaño de la fuente del título */
+    color: #333333; /* Establece el color del texto del título */
+    margin-bottom: 20px; /* Añade un margen en la parte inferior para separar el título del siguiente elemento */
+}
+
+/* Estilos para el campo de texto de entrada */
+input[type="text"] {
+    width: 100%; /* Hace que el campo de texto ocupe todo el ancho disponible */
+    padding: 10px; /* Añade relleno dentro del campo de texto */
+    font-size: 16px; /* Establece el tamaño de la fuente */
+    border: 1px solid #ddd; /* Establece un borde gris claro alrededor del campo de texto */
+    border-radius: 4px; /* Redondea las esquinas del campo de texto */
+    outline: none; /* Elimina el contorno que aparece cuando el campo de texto está seleccionado */
+    margin-bottom: 15px; /* Añade espacio debajo del campo de texto */
+}
+
+/* Estilos cuando el campo de texto está en foco (seleccionado) */
+input[type="text"]:focus {
+    border-color: #4a90e2; /* Cambia el color del borde a azul cuando el campo de texto está seleccionado */
+}
+
+/* Estilos para el botón */
+button {
+    background-color: #4a90e2; /* Establece el color de fondo del botón en azul */
+    color: white; /* Establece el color del texto dentro del botón como blanco */
+    padding: 10px 20px; /* Añade espacio interno alrededor del texto del botón */
+    font-size: 16px; /* Establece el tamaño de la fuente dentro del botón */
+    border: none; /* Elimina el borde predeterminado del botón */
+    border-radius: 4px; /* Redondea las esquinas del botón */
+    cursor: pointer; /* Cambia el cursor a una mano cuando el usuario pasa el ratón sobre el botón */
+    transition: background-color 0.3s ease; /* Añade una transición suave cuando se cambia el color de fondo */
+}
+
+/* Estilos para cuando el botón es hover (cuando el usuario pasa el ratón por encima) */
+button:hover {
+    background-color: #357abd; /* Cambia el color de fondo del botón a un azul más oscuro cuando se pasa el ratón sobre él */
+}
+
+/* Estilo para la sección de resultados */
+#resultado {
+    margin-top: 20px; /* Añade espacio en la parte superior de los resultados */
+}
+
+/* Estilo para el subtítulo dentro de los resultados */
+#resultado h2 {
+    font-size: 20px; /* Establece el tamaño de la fuente del subtítulo */
+    color: #333333; /* Establece el color del texto del subtítulo */
+    margin-bottom: 10px; /* Añade un margen en la parte inferior para separar el subtítulo del texto siguiente */
+}
+
+/* Estilo para los párrafos dentro de los resultados */
+#resultado p {
+    font-size: 14px; /* Establece el tamaño de la fuente para los párrafos */
+    color: #666666; /* Establece el color del texto como gris claro */
+    margin-bottom: 5px; /* Añade un margen en la parte inferior de cada párrafo */
+}
+
+/* Estilo para las imágenes dentro de los resultados */
+#resultado img {
+    margin-top: 15px; /* Añade espacio en la parte superior de la imagen */
+    width: 100%; /* Hace que la imagen ocupe todo el ancho disponible */
+    border-radius: 8px; /* Redondea las esquinas de la imagen */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Añade una sombra sutil alrededor de la imagen */
+}

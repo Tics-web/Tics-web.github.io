@@ -1,0 +1,22 @@
+<!DOCTYPE html> <!-- Define el tipo de documento como HTML5 -->
+<html lang="es"> <!-- Indica que el idioma principal de la página es español -->
+<head>
+    <meta charset="UTF-8"> <!-- Establece el conjunto de caracteres como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Configura la vista para que sea compatible con dispositivos móviles -->
+    <title>Clima y Fotos de Ciudad</title> <!-- Título de la página que aparece en la pestaña del navegador -->
+    <link rel="stylesheet" href="estilos.css"> <!-- Vincula el archivo CSS para aplicar estilos a esta página -->
+</head>
+<body>
+    <div class="container"> <!-- Contenedor principal que agrupa el contenido de la página -->
+        <h1>Consulta de Clima y Fotos</h1> <!-- Título principal de la página que indica la funcionalidad -->
+        <input type="text" id="ciudad" placeholder="Ingresa una ciudad"> 
+        <!-- Campo de entrada para que el usuario escriba el nombre de la ciudad -->
+        <button onclick="buscarClima()">Buscar</button> 
+        <!-- Botón que, al ser presionado, ejecuta la función 'buscarClima' -->
+        <div id="resultado"></div> 
+        <!-- Contenedor vacío donde se mostrarán los resultados (clima y fotos) -->
+    </div>
+    <script src="app.js"></script> <!-- Vincula el archivo JavaScript que contiene la lógica de la aplicación -->
+</body>
+</html>
